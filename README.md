@@ -38,7 +38,8 @@ This is the combo of IM6 Script + the PNG that that script will produce (in the 
 A little bit of help should you wish to edit one or more of the IM6 scripts.
 
 [ImageMagick CLI](https://imagemagick.org/script/command-line-options.php)     
-[ImageMagick Usage](https://legacy.imagemagick.org/Usage/)
+[ImageMagick Usage](https://legacy.imagemagick.org/Usage/)     
+[ImageMagick Fonts](https://imagemagick.org/script/command-line-options.php#font)
 
 These scripts were written under IM6 (current version is IM7; there are minor differences):
 ```
@@ -49,7 +50,7 @@ License: https://imagemagick.org/script/license.php
 Features: Cipher DPC Modules OpenMP(4.5) 
 Delegates (built-in): bzlib djvu fftw fontconfig freetype heic jbig jng jp2 jpeg lcms lqr ltdl lzma openexr pangocairo png tiff webp wmf x xml zlib
 ```
-The very first thing that you may wish to do is to grab the current Devuan logo (one is within /Logo/, but this is me being careful:
+The very first thing that you may wish to do is to grab the current Devuan logo (one is already within [/Logo/](Logo/), but this is me being super careful:
 ```
 $ wget https://git.devuan.org/devuan/documentation/raw/branch/master/art/graphics/logo/devuan-logo.png
 --2023-08-19 14:30:48--  https://git.devuan.org/devuan/documentation/raw/branch/master/art/graphics/logo/devuan-logo.png
@@ -65,3 +66,4 @@ devuan-logo.png   100%[===================>]   3.24K  --.-KB/s    in 0s
 $ file devuan-logo.png
 devuan-logo.png: PNG image data, 230 x 48, 8-bit gray+alpha, non-interlaced
 ```
+Please note that the logo-background is *transparent* (set as alpha-transparency). Note also that all scripts are set to render their PNG file in the exact same mode.
