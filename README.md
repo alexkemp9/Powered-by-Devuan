@@ -50,7 +50,7 @@ License: https://imagemagick.org/script/license.php
 Features: Cipher DPC Modules OpenMP(4.5) 
 Delegates (built-in): bzlib djvu fftw fontconfig freetype heic jbig jng jp2 jpeg lcms lqr ltdl lzma openexr pangocairo png tiff webp wmf x xml zlib
 ```
-The very first thing that you may wish to do is to grab the current Devuan logo (one is already within [/Logo/](Logo/), but this is me being super careful:
+The very first thing that you may wish to do is to grab the current Devuan logo (one is already within [Logo](Logo/), but this is me being super careful:
 ```
 $ wget https://git.devuan.org/devuan/documentation/raw/branch/master/art/graphics/logo/devuan-logo.png
 --2023-08-19 14:30:48--  https://git.devuan.org/devuan/documentation/raw/branch/master/art/graphics/logo/devuan-logo.png
