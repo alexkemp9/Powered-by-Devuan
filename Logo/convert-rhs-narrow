@@ -1,0 +1,4 @@
+convert devuan-logo.png \
+          -gravity North-East   -background transparent   -splice 0x18 \
+          -font NimbusSansNarrow-Regular -pointsize 18.9 \
+          -annotate +2+7 'Powered by'  devuan-powered-by-rhs-narrow.png

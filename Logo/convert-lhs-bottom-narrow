@@ -1,0 +1,4 @@
+convert devuan-logo.png \
+          -gravity South-West   -background transparent   -splice 0x18 \
+          -font NimbusSansNarrow-Regular -pointsize 18.9 \
+          -annotate +2-1 'Powered by'  devuan-powered-by-lhs-bottom-narrow.png
