@@ -13,11 +13,17 @@ Here is a set of six ( {LHS | Centre | RHS} top + bottom ) each in *“NimbusSan
 …and then, just because we can, here is the same set of 6 but with a *narrow* version of the same font:–     
 
 ![lhs logo](Logo/devuan-powered-by-lhs-narrow.png) | ![centre logo](Logo/devuan-powered-by-centred-narrow.png) | ![rhs logo](Logo/devuan-powered-by-rhs-narrow.png)
-![lhs-bottom logo](Logo/devuan-powered-by-lhs-bottom-narrow.png) | ![centre-bottom logo](Logo/devuan-powered-by-lhs-bottom-narrow.png) | ![rhs-bottom logo](Logo/devuan-powered-by-rhs-bottom-narrow.png)
+![lhs-bottom logo](Logo/devuan-powered-by-lhs-bottom-narrow.png) | ![centre-bottom logo](Logo/devuan-powered-by-centred-bottom-narrow.png) | ![rhs-bottom logo](Logo/devuan-powered-by-rhs-bottom-narrow.png)
 
 ## *The Scripts*
 
 This is the combo of IM Script + the PNG that that script will produce (in the same order as above):
 
-convert-lhs ＝＞ devuan-powered-by-lhs.png | convert-centred ＝＞ devuan-powered-by-centred.png | convert-rhs ＝＞ devuan-powered-by-rhs.png
-convert-lhs-bottom ＝＞ devuan-powered-by-lhs-bottom.png
+| Left-Hand-Side                   | Centre                               | Right-Hand-Side                  |
+|----------------------------------|:------------------------------------:|:---------------------------------|
+| **Top:**                                                                                                   |
+| convert-lhs ＝＞                  | convert-centred ＝＞                  | convert-rhs ＝＞                 |
+| devuan-powered-by-lhs.png        | devuan-powered-by-centred.png        | devuan-powered-by-rhs.png        |
+| **Bottom:**                                                                                                |
+| convert-lhs-bottom ＝＞           | convert-centred-bottom ＝＞          | convert-rhs-bottom ＝＞           |
+| devuan-powered-by-lhs-bottom.png | devuan-powered-by-centred-bottom.png | devuan-powered-by-rhs-bottom.png |
